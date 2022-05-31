@@ -1,0 +1,151 @@
+.contact{
+    background: linear-gradient(to bottom, rgb(98, 0, 255), rgb(55, 55, 56));
+    height: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+
+.contact-form{  
+    max-width: 460px; 
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    border-radius: 10px;  
+    padding-top: 30px;
+    padding-bottom: 20px;  
+    background-color: #fff; 
+    padding-left: 30px; 
+    padding-right: 30px; 
+    margin-bottom: 20px;
+  }
+  
+  .form input{
+    background-color: #fff;
+    width: 408px; 
+    height: 40px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #000; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+  }
+
+ 
+  
+  
+  .form textarea{
+    background-color: #fff;
+    width: 405px; 
+    height: 150px; 
+    border-radius: 5px;  
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #000; 
+    margin-top: 10px;  
+    padding-left: 10px;
+    margin-bottom: 20px; 
+    padding-top: 15px; 
+  }
+  
+  
+  .form label{
+    display: block; 
+    float: center;  
+  }
+  
+  
+  #form-button{
+    height: 45px; 
+    padding-left: 5px;
+    padding-right: 5px;   
+    margin-bottom: 20px; 
+    margin-top: 10px;   
+    text-transform: uppercase;
+    background-color: rgb(98, 0, 255); 
+    border-color:rgb(98, 0, 255); 
+    border-style: solid; 
+    border-radius: 10px;  
+    width: 420px;   
+    cursor: pointer;
+    }
+  
+  
+  #form-button p{
+    color: #fff; 
+    font-size: 20px;
+    font-weight: bold; 
+    text-align: center;
+}
+
+  
+@media screen and (max-width: 480px){
+  .contact_form{
+    width: auto; 
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  .form input{
+    width: auto;
+  }
+
+  .form textarea{
+    width: auto;
+  }
+  
+  #form-button{
+    width: auto;
+  }
+} /*fin media*/
+  
+  .form span{
+    color: #000; 
+  }
+  
+  .form h1{
+    font-size: 39px;  
+    text-align: letf; 
+    padding: 20px; 
+    color: #000;
+  }
+  
+  
+  .form h3{
+    font-size: 16px; 
+    padding-bottom: 30px;
+    color: #000;   
+  }
+  
+  
+  .form p{
+    font-size: 14px; 
+    color: #000; 
+  }
+  
+  
+  ::-webkit-input-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  ::-webkit-textarea-placeholder {
+   color: #a8a8a8;
+  }
+  
+  
+  .form input:focus{
+    outline:0;
+    border: 1px solid #8cff00;
+  }
+  
+  
+  .form textarea:focus{
+    outline:0;
+    border: 1px solid #8cff00;
+  }
+  
+  

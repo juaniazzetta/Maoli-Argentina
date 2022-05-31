@@ -1,0 +1,81 @@
+.banner {
+    margin: 2rem 0;
+}
+
+.banner .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h1 {
+    font-size: 5rem;
+    color: #000;
+}
+
+.banner p {
+    margin: 1rem 0;
+    font-weight: bold;
+    color: #000;
+}
+
+.banner img {
+    height: 400px;
+    width: 100%;
+}
+
+@media screen and (min-width: 600px) and (max-width: 1023px){
+
+    .banner img{
+        display: none !important;
+    }
+    .banner .container{
+        display: block;
+    }    
+}
+
+
+@media screen and (max-width: 599px){
+    .banner .container{
+        display: block;
+    } 
+    .banner img{
+        display: none !important;
+    }
+    .banner h1 {
+        font-size: 3rem;
+        color: #000;
+    }
+}  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

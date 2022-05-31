@@ -1,0 +1,35 @@
+.container {
+    text-align: center;
+}
+
+.card{
+    background: hsl(0, 0%, 100%);
+    margin-bottom: 2em;
+    width: 33%;
+    margin: 0 auto;
+    margin-top: 20px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.img-product{
+    height: 200px;
+}
+
+.product p{
+    color: #000;
+}
+
+.product h1{
+    text-decoration: underline;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 870px){
+    .product-container {
+        text-align: center;
+        background-color: red;
+        width: auto;
+    }
+}  
+

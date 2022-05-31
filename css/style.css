@@ -1,0 +1,25 @@
+
+body {
+    background-color: hsl(0, 0%, 90%);
+    margin: 0;
+}
+
+html {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nav-item{
+    background-color: '';
+    border-radius: 20px;
+    margin:0 20px;
+}
+
+.logo-navbar{
+    height: 45px;
+    margin-right: 10px;
+}
+
+.banner .container img{
+    animation: sum_kf_efect_1 2s;
+    -webkit-animation: sum_kf_efect_1 2s;
+}
